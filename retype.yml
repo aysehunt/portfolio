@@ -4,8 +4,20 @@ url: aysehunt.github.io/portfolio/
 branding:
   title: Ayse Hunt
   #label: 
+
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+- text: Home
+  link: ./
+  icon: home
+
+- text: My CV
+  link: ./cv
+  icon: file
+
+- text: Contact Me
+  link: ./contact
+  icon: mail
+
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+
