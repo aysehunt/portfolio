@@ -1,4 +1,4 @@
 ---
 order: E
 ---
-# Engaging museum visitors in digital content
+# Designing an interactive museum kiosk
