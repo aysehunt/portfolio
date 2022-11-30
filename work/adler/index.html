@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/portfolio">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.722296456825">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.723161028818">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -12,6 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Co-designing a museum exhibit with youth</title>
     <meta name="title" content="Co-designing a museum exhibit with youth">
+    <meta name="description" content="This project was a collaboration between the Adler Planetarium and Northwestern University. The team consisted of my advisors Dr. Mike Horn and Dr." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://aysehunt.github.io/portfolio/work/adler/" />
@@ -20,19 +21,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aysehunt.github.io/portfolio/work/adler/">
     <meta property="og:title" content="Co-designing a museum exhibit with youth">
+    <meta property="og:description" content="This project was a collaboration between the Adler Planetarium and Northwestern University. The team consisted of my advisors Dr. Mike Horn and Dr.">
+    <meta property="og:image" content="https://aysehunt.github.io/portfolio/static/figure1.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://aysehunt.github.io/portfolio/work/adler/">
     <meta property="twitter:title" content="Co-designing a museum exhibit with youth">
+    <meta property="twitter:description" content="This project was a collaboration between the Adler Planetarium and Northwestern University. The team consisted of my advisors Dr. Mike Horn and Dr.">
+    <meta property="twitter:image" content="https://aysehunt.github.io/portfolio/static/figure1.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/portfolio/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.722296456825" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.723161028818" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.722296456825" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.723161028818" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.722296456825" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.723161028818" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -224,6 +229,127 @@
         <span>Co-designing a museum exhibit with youth</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="situation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#situation">#</doc-anchor-trigger>
+        <span>Situation</span>
+    </h2>
+</doc-anchor-target>
+<p>This project was a collaboration between the Adler Planetarium and Northwestern University. The team consisted of my advisors Dr. Mike Horn and Dr. Laura Trouille, and myself. It was a continuation of <a href="https://doi-org.turing.library.northwestern.edu/10.1145/3411764.3445334" target="_blank">previous work by Obiorah et al.</a> The previous team had designed and evaluated an exhibit at the Adler titled &quot;U!Scientist&quot;.</p>
+<p><figure class="content-center">
+    <img src="../../static/figure1.png" alt="Visitors interacting with U!Scientist. Credit: Obiorah et al., 2021" />
+    <figcaption class="caption">Visitors interacting with U!Scientist. Credit: Obiorah et al., 2021</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="original-design">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#original-design">#</doc-anchor-trigger>
+        <span>Original Design</span>
+    </h3>
+</doc-anchor-target>
+<p>The exhibit consisted of an interactive touchtable that prompted visitors to classify images of galaxies based on shape, size, and other characteristics. Visitors could gather around the table at one of 6 classification stations that looked like this:</p>
+<p><figure class="content-center">
+    <img src="../../static/adler-figure2.png" alt="Close-up of original U!Scientist exhibit user interface" />
+    <figcaption class="caption">Close-up of original U!Scientist exhibit user interface</figcaption>
+</figure>
+</p>
+<p>Images were pulled from the Zooniverse Galaxy Zoo dataset. By engaging with U!Scientist, vistors are helping scientists classify huge numbers of images. The exhibit is part of a larger movement called  <a href="https://www.zooniverse.org/about" target="_blank">people-powered research.</a></p>
+<doc-anchor-target id="task">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#task">#</doc-anchor-trigger>
+        <span>Task</span>
+    </h2>
+</doc-anchor-target>
+<p>Based on the evaluation and insights from the Adler team, we identified that children struggled to use the existing exhibit without help from adults. Obiorah et al. suggested that the UI and instructional materials could be simplified to better suit a younger audience.</p>
+<p>The goal of our project was to explore how to make the U!Scientist exhibit <strong>more engaging for younger visitors.</strong> In particular, the Adler was interested in cultivating meaningful experiences for students visiting the planetarium during field trips.</p>
+<doc-anchor-target id="design-challenges">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#design-challenges">#</doc-anchor-trigger>
+        <span>Design Challenges</span>
+    </h3>
+</doc-anchor-target>
+<p>Before deciding how to tackle this task, I identified a few challenges that I saw as particularly relevant to designing for kids:</p>
+<ol>
+<li><p>Images in the dataset have low resolution -- shapes can be <strong>ambiguous</strong>. This makes the images difficult to classify with confidence.</p>
+</li>
+<li><p>The task is open-ended -- users receive <strong>no feedback</strong> regarding the accuracy of their classifications after they are submitted.</p>
+</li>
+<li><p>The task is <strong>individualized</strong> -- there is no forcing function to make users talk to others or make decisions together.</p>
+</li>
+</ol>
+<p>These attributes make these image classifcation tasks difficult for anyone, but I hypothesized that younger users would especially struggle.</p>
+<doc-anchor-target id="action">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#action">#</doc-anchor-trigger>
+        <span>Action</span>
+    </h2>
+</doc-anchor-target>
+<p>We opted to work closely with middle school students to understand their perspective on the exhibit and rapidly prototype new designs together. Our research plan was influenced by theories of participatory design-research (Bang and Vossoughi, 2016) and Guha et al.’s (2004, 2013) method of Cooperative Inquiry.</p>
+<p>Participatory design research calls upon researchers to remove barriers between the researcher and ‘the researched’ to address structural inequality. Cooperative Inquiry outlines specific techniques for co-designing technology with children.</p>
+<doc-anchor-target id="methods-v1">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#methods-v1">#</doc-anchor-trigger>
+        <span>Methods v1</span>
+    </h3>
+</doc-anchor-target>
+<p>Our team partnered with a local non-profit that runs a STEM-based afterschool program for K-8 students. Working with faciliators from the program, I created a tentative 8-week activity plan to introduce students to people-powered research and the Adler’s design challenge. I also secured funding and transportation for a field trip to the plantarium. I sought to position students as designers themselves, rather than users.</p>
+<p>As an initial activty, I designed a quiz that took the essential elements of the classification task and gamified it. Users could vote for which shape best fit the image in real-time using phones or tablets. Afer the 30 second vote concludes, users can see the popular choice.</p>
+<p><figure class="content-center">
+    <img src="../../static/adler-figure3.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>This approach had a few benefits. For one, it removed much of the scientific jargon that might be inaccessible to kids. Second, the quiz-based game increased the visibility of other people&#x27;s choices. This encouraged kids to consider how their peers might be voting. This also introduces a social component, and an opportunity for debate surrounding the most popular choice.</p>
+<p>After working with the non-profit for about 6 months, organizers let us know that due to the pandemic, attendance was too low to go ahead with our program. At this point, we went back to the drawing board.</p>
+<doc-anchor-target id="methods-v2">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#methods-v2">#</doc-anchor-trigger>
+        <span>Methods v2</span>
+    </h3>
+</doc-anchor-target>
+<p>We decided to hold a 2-hour feedback session as a different afterschool program for 6-8th graders. The structure of the program allowed children to freely move between different activity stations, including a cooking station, a ping-pong table, and others.</p>
+<p>We set up two protoypes and struck up conversations with middle schoolers about the activities and their interest in astronomy. The first prototype involved a stack of printed galaxy images and a categories on the wall. Students were asked to place each image in the category they felt it best fit:</p>
+<p><figure class="content-center">
+    <img src="../../static/adler-wall-prototype.png" alt="Students could tape images onto the wall based on their shape" />
+    <figcaption class="caption">Students could tape images onto the wall based on their shape</figcaption>
+</figure>
+</p>
+<p>Our second prototype was a variation on the first idea. Instead of taping galaxy images to the wall, we asked kids to use tokens to &quot;vote&quot; for the shape of each galaxy image, displayed on a laptop screen:</p>
+<p><figure class="content-center">
+    <img src="../../static/adler-token-prototype.png" alt="Students could vote by placing a token in the box based on the galaxy's shape" />
+    <figcaption class="caption">Students could vote by placing a token in the box based on the galaxy&#x27;s shape</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="result">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#result">#</doc-anchor-trigger>
+        <span>Result</span>
+    </h2>
+</doc-anchor-target>
+<p>During our feedback session, students had mixed reactions to our prototypes. Between the two, students seemed to gravitate towards the wall-based prototype. Small groups formed as students tried to understand the task. A few asked us if this was some kind of game.</p>
+<p>In one instance, a student, who we&#x27;ll call J, had been hanging out near the wall-based prototype for a while. I had a chance to show J the basics of the image classification task. After a bit, J started talking to students who had just walked over.</p>
+<p>J exclaimed to their peers, &quot;Let me show you how this works!&quot;. J went on to show their peers how to categorize one of the images. J also pointed out other images on the wall that they had previously placed. One student questioned whether J had categorized the image correctly. At this point they looked to me, the researcher, for confirmation, and I explained that sometimes it was hard to tell and that they should just do their best. They debated for a while, before moving on to another activity.</p>
+<doc-anchor-target id="take-aways">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#take-aways">#</doc-anchor-trigger>
+        <span>Take-aways</span>
+    </h3>
+</doc-anchor-target>
+<p>Based on this initial feedback session, I made the following conclusions for future work:</p>
+<ol>
+<li><p>Increasing the <strong>visibility</strong> of the task, and the progress other people have made is important for drawing people in.</p>
+</li>
+<li><p>Creating opportunities for visitors <strong>to share and discuss decisions with others</strong> may help address the open-ended nature of the task.</p>
+</li>
+</ol>
+<p>I believe that designs that uphold these qualities, coupled with simplified language and signage, will improve engagement among younger visitors.</p>
+<doc-anchor-target id="acknowledgements">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#acknowledgements">#</doc-anchor-trigger>
+        <span>Acknowledgements</span>
+    </h2>
+</doc-anchor-target>
+<p>This work was made possible by support from the Segal Design Cluster Fellowship at Northwestern University. Many thanks to my advisors, Dr. Mike Horn and Dr. Laura Trouille, as well as the entire Adler team and supporting non-profits.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -233,20 +359,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../work/northwestern/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Exploring how interface design influences collaboration</span>
+                                                <span class="block mt-1">Hello!</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../work/vulcan/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../work/northwestern/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Improving the usability of an internal calendar tool</span>
+                                                <span class="block mt-1">Exploring how interface design influences collaboration</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
