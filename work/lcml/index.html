@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/portfolio">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.723161028818">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.725572629479">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -12,6 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Evaluating visitor experiences in a museum exhibit</title>
     <meta name="title" content="Evaluating visitor experiences in a museum exhibit">
+    <meta name="description" content="This project was my final deliverable for my internship at Living Computers: Museum + Labs (LCM+L) in 2019." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://aysehunt.github.io/portfolio/work/lcml/" />
@@ -20,19 +21,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aysehunt.github.io/portfolio/work/lcml/">
     <meta property="og:title" content="Evaluating visitor experiences in a museum exhibit">
+    <meta property="og:description" content="This project was my final deliverable for my internship at Living Computers: Museum + Labs (LCM+L) in 2019.">
+    <meta property="og:image" content="https://aysehunt.github.io/portfolio/static/cold-room.jpeg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://aysehunt.github.io/portfolio/work/lcml/">
     <meta property="twitter:title" content="Evaluating visitor experiences in a museum exhibit">
+    <meta property="twitter:description" content="This project was my final deliverable for my internship at Living Computers: Museum + Labs (LCM+L) in 2019.">
+    <meta property="twitter:image" content="https://aysehunt.github.io/portfolio/static/cold-room.jpeg">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/portfolio/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.723161028818" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.725572629479" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.723161028818" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.725572629479" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.723161028818" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.725572629479" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -224,6 +229,171 @@
         <span>Evaluating visitor experiences in a museum exhibit</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="situation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#situation">#</doc-anchor-trigger>
+        <span>Situation</span>
+    </h2>
+</doc-anchor-target>
+<p>This project was my final deliverable for my internship at Living Computers: Museum + Labs (LCM+L) in 2019. LCM+L is a computing history museum located in Seattle. LCM+L features a collection of restored vintage computers that are available for public use.</p>
+<p><figure class="content-center">
+    <img src="../../static/cold-room.jpeg" alt="The Computer Room exhibit at LCM+L. Image credit: Wikipedia." />
+    <figcaption class="caption">The Computer Room exhibit at LCM+L. Image credit: Wikipedia.</figcaption>
+</figure>
+</p>
+<p>This project is focused on an exhibit called the Computer Room. This exhibit was designed to mimic an air conditioned room where mainframe computers would have been stored in the 1960s and 1970s. The Computer Room at LCM+L showcases restored mainframes that are available for public use, including a DEC PDP-10 and an IBM System 360.</p>
+<p>Compared to other exhibits that featured minicomputers and vintage game consoles, the Computer Room exhibit has relatively low attendance. This had been demonstrated in previous visitor research at the museum, and confirmed anecdotally by staff. With a renovation on the horizon, the museum wanted to understand how visitor experiences in this exhibit could be improved.</p>
+<doc-anchor-target id="task">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#task">#</doc-anchor-trigger>
+        <span>Task</span>
+    </h2>
+</doc-anchor-target>
+<p>The goal of this project was to make design recommendations to improve visitor experiences in the Computer Room. In particular, the museum was interested in improving experiences for people with no prior experience with mainframes and vintage computing--i.e. a non-technical audience. Additionally, it was important to provide design recommendations that took budgetary constraints into consideration.</p>
+<doc-anchor-target id="design-challenges">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#design-challenges">#</doc-anchor-trigger>
+        <span>Design Challenges</span>
+    </h3>
+</doc-anchor-target>
+<p>Before deciding how to tackle this task, I identified a few challenges that I saw as particularly relevant to visitor experiences in the Computer Room:</p>
+<ol>
+<li><p>The exhibit is behind large doors that are necessary for temperature regulation--it is <strong>physically separate and somewhat hidden from the rest of the museum.</strong></p>
+</li>
+<li><p><strong>The exhibit is not very welcoming</strong>--at its essence, the exhibit is a windowless room full of giant machines. Unless someone sees the signage, they might think they have accidentally entered a storage room.</p>
+</li>
+<li><p>The exhibit was very popular with vintage computing enthusiasts, just not with other visitors. It was important <strong>avoid making changes that would compromise the experience of visitors with technical expertise.</strong></p>
+</li>
+</ol>
+<doc-anchor-target id="action">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#action">#</doc-anchor-trigger>
+        <span>Action</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="synthesizing-prior-work">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#synthesizing-prior-work">#</doc-anchor-trigger>
+        <span>Synthesizing Prior Work</span>
+    </h3>
+</doc-anchor-target>
+<p>At the beginning of this project, I took time to synthesize prior visitor research that had been conducted at the museum. In particular, Bree Lohan&#x27;s 2017 study had conducted a quantitative analysis of where visitors spend time at the museum.</p>
+<p><figure class="content-left">
+    <img src="../../static/cold-room-side-by-side.png" alt="Left: A map of the second floor of the museum, highlighting the Computer Room's location.
+Right: A heatmap of where visitors spend time, based on Lohan's quantitative analysis. Note the blue sections in the Computer Room, denoting low visitation. Image credit: Lohan, 2017" />
+    <figcaption class="caption caption-float"><strong>Left:</strong> A map of the second floor of the museum, highlighting the Computer Room&#x27;s location.
+<strong>Right:</strong> A heatmap of where visitors spend time, based on Lohan&#x27;s quantitative analysis. Note the blue sections in the Computer Room, denoting low visitation. Image credit: Lohan, 2017</figcaption>
+</figure>
+</p>
+<p>As part of her evaluation, Lohman conducted a time-motion study, which is visualized by the heatmap above. Results show that visitors spend an average of 7.64 minutes in the Computer Room. The modal visit duration for all visitors was around 2 minutes, suggesting that the average was increased by a few outlier individuals who spent closer to 10 to 12 minutes in the Computer Room.</p>
+<p>Visitors under 18 and visitors who identified as women spent an average of 4.0 minutes and 6.0 minutes in the Computer Room, respectively. Average visiting time increased to 9.0 for visitors who identified as male. Visitors who interacted with the terminals spent an average of 11.9 minutes in the exhibit, regardless of gender. <strong>This data suggests that the space resonated more with certain groups of visitors, particularly those with enough technical knowledge to interact with the terminals.</strong></p>
+<doc-anchor-target id="theory">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#theory">#</doc-anchor-trigger>
+        <span>Theory</span>
+    </h3>
+</doc-anchor-target>
+<p>To supplement prior findings and guide the my data collection, I draw on John Falk&#x27;s (2007) schema of visitor identities. His work suggests that visitor motivations for attending a museum can be understood through the lens of 5 identities:</p>
+<ul>
+<li><strong>Explorer</strong>: needs to satisfy personal curiosity</li>
+<li><strong>Facilitator</strong>: wishes to spend time with loved ones</li>
+<li><strong>Experience-seeker</strong>: aspires to experience the best things within a culture</li>
+<li><strong>Professional/Hobbyist</strong>: desires to deepen knowledge of specific subject matter</li>
+<li><strong>Recharger</strong>: hopes to recharge emotionally, physically, and spiritually</li>
+</ul>
+<p>These identities are not absolute or finite, as one visitor could have a combination of these motivations at any time, or have distinct motivations on different visits to the same museum. I used this framework in tandem with visitor research data in order to make design recommendations.</p>
+<doc-anchor-target id="methods">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
+        <span>Methods</span>
+    </h3>
+</doc-anchor-target>
+<p>I collected three types of data to better understand visitor experiences:</p>
+<ul>
+<li>5 interviews with tour guides and museum facilitators</li>
+<li>6 tour observations, which included a total of 43 guests</li>
+<li>70 survey responses, collected from visitors at the museum leaving the 2nd floor</li>
+</ul>
+<p>Additionally, based on previously collected data and initial impressions, I identified three identities that are particularly relevant to LCM+L:</p>
+<p>The <strong>Professional or Hobbyist identity</strong> is consistent with data related to visitors who have historically been the museum&#x27;s core demographic—people with a passion for vintage computers. A 2017 member survey suggested that many original members of the museum participate in technology as a career or hobby, and that they became members because they believed in LCM+L&#x27;s restoration work and mission.</p>
+<p>The <strong>Facilitator identity</strong> relates to data that suggests the LCM+L has become more popular with families in recent years. A push to welcome visitors with children into the space saw a rise of family memberships, which now make up the majority of the museum&#x27;s members.</p>
+<p>The <strong>Explorer</strong> relates to data suggesting that LCM+L visitors strongly self-identify as curious, life-long learners. These visitors may have a technical background similar to the Professional, but because they skew younger than the Professional they typically lack the firsthand experience with many of the vintage systems at LCM+L. In other words, LCM+L is a way to learn about history, rather than reconnect with their past.</p>
+<doc-anchor-target id="result">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#result">#</doc-anchor-trigger>
+        <span>Result</span>
+    </h2>
+</doc-anchor-target>
+<p>Here I will summarize a few important findings from the survey study, interviews, and visitor observation.</p>
+<p><figure class="content-center">
+    <img src="../../static/comp-room-visit.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>The survey indicated that 84.06% of respondents visited the Computer Room during their visit. This data is consistent with Lohman’s numbers from 2017. I believe there may be some inflation due to confusion regarding what the Computer Room is and is not. A common clarifying question during the survey was ‘Wait—what’s the computer room? Is it the whole second floor?’</p>
+<p>As with any sample size this small, these results should not be held as statistically rigorous. Additionally, I didn’t ask about how long visits to the Computer Room lasted or what visitors did while visiting. If we assume the results from the 2017 time motion analysis to hold true, the average length of these visits were less than 8 minutes long.</p>
+<p><figure class="content-center">
+    <img src="../../static/comp-room-changes.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>This visual depicts written-in answers to the open-ended question, ‘what changes would you make, if any, to the Computer Room?’ This question was only posed to respondents who indicated that they had entered the Computer Room during their visit. Of the 58 surveyed, 16 visitors offered suggestions.</p>
+<p>Notice the repeated mention of a desire to see video, interactivity, and tutorials in the space. Additionally, one person noted the need for tour guides to be mic’d in order to overcome ambient noise. This was something came up in interviews with tour guides, particularly when speaking to a larger group.</p>
+<p><figure class="content-center">
+    <img src="../../static/comp-room-no-visit.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Finally, we posed a series of questions to visitors who indicated that they did not visit the Computer Room. We directly asked them why they did not visit the Computer Room. Not seeing the space and not realizing it was accessible to visitors were two of the most cited factors for not entering the Computer Room.</p>
+<doc-anchor-target id="design-recommendations">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#design-recommendations">#</doc-anchor-trigger>
+        <span>Design Recommendations</span>
+    </h3>
+</doc-anchor-target>
+<p>After analyzing my data, I presented 3 main design recommendations to key stakeholders at the museum.</p>
+<doc-anchor-target id="recommendation-1-increase-the-visibility-of-the-exhibit">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#recommendation-1-increase-the-visibility-of-the-exhibit">#</doc-anchor-trigger>
+        <span>Recommendation 1: Increase the Visibility of the Exhibit</span>
+    </h4>
+</doc-anchor-target>
+<p>35% respondents who didn’t visit the Computer Room reported being unsure if the space was open to visitors. 27% respondents who didn’t visit the Computer Room reported not seeing the space. These findings were supported by tour guides who reported visitors being confused about where they could go.</p>
+<p>Small changes, like adding increased signage outside of the Computer Room could make a difference in the visibility of the exhibit. Directive lighting or floor decals are another option that could help guide people to walk towards the exhibit. The benefit of these changes is that they do not require a significant financial investment, yet they could yield measurable results.</p>
+<doc-anchor-target id="recommendation-2-increase-awareness-of-restoration-work">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#recommendation-2-increase-awareness-of-restoration-work">#</doc-anchor-trigger>
+        <span>Recommendation 2: Increase Awareness of Restoration Work</span>
+    </h4>
+</doc-anchor-target>
+<p>Based on interviews with tour guides, many visitors are unaware of the museum&#x27;s efforts to restore vintage computers. A large amount of time and energy goes into sourcing machines, repairing physical components, and configuring software for visitors to use. LCM+L has an entire team of engineers dedicated to restoring machines and maintaining the collection.</p>
+<p>To help visitors understand the ‘What’ and the ‘Why’ of the Computer Room, I suggest adding colorful inforaphics about what a mainframe is and how it fits in computing history. This information can help orient visitors without a technical background.</p>
+<p>Additionally, adding more content that showcases the Engineering department (i.e. photos, bios, current projects, etc.), as well as LCM+L’s mission statement can help put the rest of the room in context. By pulling back the curtain on the context of this exhibit, we can demonstrate why this work is important.</p>
+<p>Making changes to highlight restoration work would serve two important purposes. First, as previously mentioned, it would help orient visitors without a technical background. Second, information about the Engineering department and their restoration work would appeal to the museum&#x27;s core demographic as well.</p>
+<doc-anchor-target id="recommendation-3-create-opportunities-for-structured-exploration">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#recommendation-3-create-opportunities-for-structured-exploration">#</doc-anchor-trigger>
+        <span>Recommendation 3: Create Opportunities for Structured Exploration</span>
+    </h4>
+</doc-anchor-target>
+<p>As previous evaluations at the museum revealed, very few guests venture into the back corners of the Computer Room. I recommended that the museum explore the possibility of creating a clearly defined, numbered path with stops at each system. This would allow visitors to engage with the space independently, with enough structure to prevent becoming overwhelmed.</p>
+<p>This structured path could include tutorials on how to use the machines, or other interactive activities. These changes would also address the survey suggestions of including more interactive activites.</p>
+<doc-anchor-target id="take-aways">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#take-aways">#</doc-anchor-trigger>
+        <span>Take-aways</span>
+    </h3>
+</doc-anchor-target>
+<p>After my presentation, stakeholders at the museum including the curator approved my design recommendations to be incorporated into an upcoming renovation. Unfortunately, this project ended just before the pandemic and the museum closed its doors indefinitely due to public health concerns. The renovation remains on hold.</p>
+<p>Still, the findings from this research remain relevant:</p>
+<ul>
+<li><p>Visibility is key to attracting attention. This is a well-documented issue in exhibit design literature.</p>
+</li>
+<li><p>Context matters when trying to engage new audiences. Craft signage to answer questions like &quot;what is this?&quot; and &quot;why is this important to me?&quot;.</p>
+</li>
+<li><p>Consider how to add points of entry for engagement. Guiding the visitor through the space, not simply drawing them in, is vital to creating meaningful experiences.</p>
+</li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
@@ -233,20 +403,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../work/vulcan/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../work/northwestern/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Improving the usability of an internal calendar tool</span>
+                                                <span class="block mt-1">Exploring how interface design influences collaboration</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../work/mog/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../work/vulcan/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Designing an interactive museum kiosk</span>
+                                                <span class="block mt-1">Improving the usability of an internal calendar tool</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
