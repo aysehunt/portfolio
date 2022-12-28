@@ -6,7 +6,7 @@ order: A
 
 ## Situation
 
-This project was a collaboration between the Adler Planetarium and Northwestern University. The team consisted of my advisors Dr. Mike Horn and Dr. Laura Trouille, and myself. It was a continuation of <a href="https://doi-org.turing.library.northwestern.edu/10.1145/3411764.3445334" target="_blank">previous work by Obiorah et al.</a> The previous team had designed and evaluated an exhibit at the Adler titled "U!Scientist". 
+This project was a collaboration between the Adler Planetarium and Northwestern University. The team consisted of my advisors Dr. Mike Horn and Dr. Laura Trouille, and myself. This project was active from August 2021 to June 2022. It was a continuation of <a href="https://doi-org.turing.library.northwestern.edu/10.1145/3411764.3445334" target="_blank">previous work by Obiorah et al.</a> The previous team had designed and evaluated an exhibit at the Adler titled "U!Scientist". 
 
 ![Visitors interacting with U!Scientist. Credit: Obiorah et al., 2021](/static/figure1.png/)
 
