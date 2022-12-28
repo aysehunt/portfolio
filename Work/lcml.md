@@ -15,7 +15,7 @@ Compared to other exhibits that featured minicomputers and vintage game consoles
 
 ## Task
 
-The goal of this project was to make design recommendations to improve visitor experiences in the Computer Room. In particular, the museum was interested in improving experiences for people with no prior experience with mainframes and vintage computing--i.e. a non-technical audience. Additionally, it was important to provide design recommendations that took budgetary constraints into consideration.
+The goal of this project was to make design recommendations to **improve visitor experiences in the Computer Room.** In particular, the museum was interested in improving experiences for people with no prior experience with mainframes and vintage computing--i.e. a non-technical audience. Additionally, it was important to provide design recommendations that took budgetary constraints into consideration.
 
 ### Design Challenges
 

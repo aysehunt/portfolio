@@ -24,7 +24,7 @@ The goal of our project was to compare how the design of a game influences the w
 
 The key difference between these two versions of the game is the interface modality. In the **tangible version,** users manipulate physical blocks that fit together like puzzle pieces to give the character instructions. In the **graphical version,** users are given a second iPad with virtual blocks that they can connect on the screen in order to give instructions to the character.
 
-My task, in collaboration with my teammate Mmachi Obiorah, was to conduct an analysis comparing how users collaborate while playing the two different versions of the game.
+My task, in collaboration with my teammate Mmachi Obiorah, was to conduct an analysis **comparing how users collaborate while playing the two different versions of the game.**
 
 
 ## Action

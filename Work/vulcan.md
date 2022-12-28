@@ -16,7 +16,7 @@ Leadership at the Arts & Entertainment group was interested in creating a calend
 
 Living Computers: Museum + Labs (LCM+L) is a computing history museum in Seattle. In addition to museum exhibits that are designed and maintained by curators and a team of engineers, LCM+L offers educational programming such as after-school programs and field trip activities. Also, the premises are available to be reserved for private events. Between events in the exhibits, educational programming, and private events, there is always something happening at the museum.
 
-To faciliate better communication and planning for future events, Brianna and I were tasked with creating a Smartsheet calendar to meet the needs of the following departments: Curatorial, Archiving, Engineering, Education, Marketing, and Operations. Additionally, the museum's operations were influenced by external events, such as holidays, school closures, and sports games at a nearby stadium.
+Brianna and I aimed **to create a Smartsheet calendar that would facilitate internal communication.** We collaborated with the following departments: Curatorial, Archiving, Engineering, Education, Marketing, and Operations. Additionally, the museum's operations were influenced by external events, such as holidays, school closures, and sports games at a nearby stadium.
 
 It was important to the team that any solution we came up with would be easy for stakeholders within the museum and beyond to view and edit. Also, creating a system that was relatively simple to maintain was paramount. Finally, before presenting a final design, it was vital to get buy-in from all 6 department heads at the museum.
 
