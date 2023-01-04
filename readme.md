@@ -1,9 +1,4 @@
----
-links:
-- text: this
-  link: https://forvo.com/word/ay%C5%9Fe/
-  target: blank
----
+
 # Hello!
 
 --![](/static/ayse-2.png/)
