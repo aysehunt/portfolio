@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/portfolio">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.725576962504">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.726106192500">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Designing an interactive museum kiosk</title>
-    <meta name="title" content="Designing an interactive museum kiosk">
+    <title>Museum of Glass</title>
+    <meta name="title" content="Museum of Glass">
+    <meta name="description" content="This project was a collaboration between the Museum of Glass in Tacoma, WA and students at the University of Puget Sound." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://aysehunt.github.io/portfolio/work/mog/" />
@@ -19,20 +20,22 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aysehunt.github.io/portfolio/work/mog/">
-    <meta property="og:title" content="Designing an interactive museum kiosk">
+    <meta property="og:title" content="Museum of Glass">
+    <meta property="og:description" content="This project was a collaboration between the Museum of Glass in Tacoma, WA and students at the University of Puget Sound.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://aysehunt.github.io/portfolio/work/mog/">
-    <meta property="twitter:title" content="Designing an interactive museum kiosk">
+    <meta property="twitter:title" content="Museum of Glass">
+    <meta property="twitter:description" content="This project was a collaboration between the Museum of Glass in Tacoma, WA and students at the University of Puget Sound.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/portfolio/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.725576962504" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.726106192500" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.725576962504" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.726106192500" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.725576962504" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.726106192500" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -218,12 +221,128 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="designing-an-interactive-museum-kiosk" class="break-words">
+<doc-anchor-target id="museum-of-glass" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#museum-of-glass">#</doc-anchor-trigger>
+        <span>Museum of Glass</span>
+    </h1>
+</doc-anchor-target>
+<hr />
+<doc-anchor-target id="designing-an-interactive-museum-kiosk">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#designing-an-interactive-museum-kiosk">#</doc-anchor-trigger>
         <span>Designing an interactive museum kiosk</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="situation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#situation">#</doc-anchor-trigger>
+        <span>Situation</span>
+    </h2>
+</doc-anchor-target>
+<p>This project was a collaboration between the Museum of Glass in Tacoma, WA and students at the University of Puget Sound. The team consisted of my peers Nick Bigger, Marwan Johnson, Kayla Ramos and myself. This project was active from November 2018 to June 2019. This work was the basis for my Capstone project at the end of my Computer Science degree.</p>
+<p><figure class="content-center">
+    <img src="../../static/mogcrystalballfinals.jpeg" alt="Outside the museum. Credit: Museum of Glass" />
+    <figcaption class="caption">Outside the museum. Credit: Museum of Glass</figcaption>
+</figure>
+</p>
+<p>This project was motivated by my previous research on the role of educational technology in art museums. I was curious how digital tools might be able to provide additional context for the art pieces in the museum&#x27;s collection. I approached curators at the Museum of Glass to see if they would be open to collaborating and they were excited to work with me to design something new for the museum. Katie Buckingham, curator, and Rebecca Engelhardt, collections/exhibitions manager, were our main contacts for this project.</p>
+<doc-anchor-target id="task">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#task">#</doc-anchor-trigger>
+        <span>Task</span>
+    </h2>
+</doc-anchor-target>
+<p>Curators expressed a desire to showcase video content that was only available on the museum&#x27;s website. Something unique about the Museum of Glass is their Hot Shop--a studio space where artists can blow glass and visitors can watch the process live. On the museum&#x27;s website, there were videos of artists making pieces of art that are part of the museum&#x27;s collection.</p>
+<p>I suggested that we try to create an interactive object label that would sit next to a piece of art. Unlike a traditional written description of the piece, visitors could watch videos of the artist describing their process and actually creating the piece in front of them.</p>
+<p><figure class="content-left">
+    <img src="../../static/traditional_label.jpeg" alt="Here are examples of traditional object labels with written descriptions of pieces. Occasionally these labels will have correspond to part of a museum's audio guide. I took this picture at the de Young." />
+    <figcaption class="caption caption-float">Here are examples of traditional object labels with written descriptions of pieces. Occasionally these labels will have correspond to part of a museum&#x27;s audio guide. I took this picture at the de Young.</figcaption>
+</figure>
+</p>
+<p>I pitched the project to the Computer Science seniors at my college. I selected 3 students who has applied to join my team, and we started working on the kiosk.</p>
+<p><figure class="content-center">
+    <img src="../../static/mog_team.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="action">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#action">#</doc-anchor-trigger>
+        <span>Action</span>
+    </h2>
+</doc-anchor-target>
+<p>We decided create an Android application that would displayed on a locked tablet. This decision was partially movitated by budget--we knew that Android tablets would be less expensive for the museum to purchase. Additionally, the tablet was a good size for this context. We wanted the label to be big enough to be easy to read, but not so big that it detracts from the art itself.</p>
+<p>After deciding that we were building an application in the Android environment, we had to refine exactly what kind of information the label would convey. Below is an initial sketch I created, as well as a wireframe Nick created.</p>
+<p><figure class="content-center">
+    <img src="../../static/mog_sketch.png" alt="Left: Initial sketch of the object label; Right: A wireframe of what the homepage of the label might look like." />
+    <figcaption class="caption"><strong>Left</strong>: Initial sketch of the object label; <strong>Right</strong>: A wireframe of what the homepage of the label might look like.</figcaption>
+</figure>
+</p>
+<p>Katie and Rebecca requested that we create an application that they can log into and edit on their own--rather than pulling directly from the online catalogue. This allows for flexibility, and avoided some concerns they had about the format of their database.</p>
+<p>During this initial phase, Marwan explored how to create an admin portal that the front-end could pull information from. Kayla focused on security considerations, including how to prevent visitors from closing the app and using other tablet features.</p>
+<p>We also visited the museum to get a sense of the space, and to meet with exhibition designers. We shared the measurements of the tablet we were testing on, and brainstormed ideas for how to enclose the tablet in a secure way.</p>
+<doc-anchor-target id="result">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#result">#</doc-anchor-trigger>
+        <span>Result</span>
+    </h2>
+</doc-anchor-target>
+<p>We opted to use a tabbed layout in the final design. Below is a sample of what visitors would see in the application:</p>
+<doc-tabs>
+<doc-tab id="artist">
+<template #title>Artist</template>
+<p><figure class="content-center">
+    <img src="../../static/artist.jpeg" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab id="work">
+<template #title>Work</template>
+<p><figure class="content-center">
+    <img src="../../static/work.jpeg" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab id="video">
+<template #title>Video</template>
+<p><figure class="content-center">
+    <img src="../../static/mog_video.jpeg" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+</doc-tabs>
+<p>Below is a sample of what an admin would see in the application:</p>
+<doc-tabs>
+<doc-tab id="artist-admin-view">
+<template #title>Artist (admin view)</template>
+<p><figure class="content-center">
+    <img src="../../static/admin_artist.jpeg" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab id="work-admin-view">
+<template #title>Work (admin view)</template>
+<p><figure class="content-center">
+    <img src="../../static/admin_work.jpeg" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab id="video-admin-view">
+<template #title>Video (admin view)</template>
+<p><figure class="content-center">
+    <img src="../../static/admin_video.jpeg" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+</doc-tabs>
+<p>We delivered a presentation introducing the museum team to the app. We made a point to explain how the admin portal works, and how to reset credentials in the event of a forgotten password. The interactive label was planned for installation in late 2019.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -237,7 +356,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Improving the usability of an internal calendar tool</span>
+                                                <span class="block mt-1">Vulcan, Inc.</span>
                                             </span>
                                         </a>
                                     </div>
@@ -246,7 +365,7 @@
                                         <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../work/bluej/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Understanding user journeys using IDE log data</span>
+                                                <span class="block mt-1">University of Puget Sound</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -261,7 +380,7 @@
                                     <ul class="flex flex-wrap items-center text-sm">
                                     </ul>
                                 </div>
-                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2022. All rights reserved.</p></div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023. All rights reserved.</p></div>
                             </footer>
                         </div>
                     </div>
@@ -290,6 +409,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Designing an interactive museum kiosk", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Museum of Glass", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
