@@ -1,6 +1,9 @@
 ---
 order: C
 ---
+
+# Living Computers Museum
+---
 # Evaluating visitor experiences in a museum exhibit
 
 ## Situation

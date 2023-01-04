@@ -2,6 +2,8 @@
 order: A
 ---
 
+# Adler Planetarium
+---
 # Co-designing a museum exhibit with youth
 
 ## Situation

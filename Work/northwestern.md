@@ -2,6 +2,8 @@
 order: B
 ---
 
+# Northwestern University 
+---
 # Exploring how interface design influences collaboration
 
 ## Situation
