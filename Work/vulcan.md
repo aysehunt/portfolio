@@ -32,9 +32,9 @@ In order to design a system that would suit the needs of the organization, we ha
 Through these meetings, we learned more about Smartsheet's dashboard feature, which allows users to create widgets that show a calendar in different views, lists, or submission forms. We learned that the dashboard would be a good way for internal and external stakeholders to view the calendar even without Vulcan login credentials.
 
 Additionally, these meeetings help us become familiar with features that unique to Smartsheet, including the specifics of how sheet ownership and admin responsibilities are handled. This would become important to creating a sustainable, maintainable system.
-
-### Stakeholder Interviews
-
+<!-- 
+### Stakeholder interviews
+ -->
 ### Building the Calendar and Dashboard
 
 ![](/static/vulcan-dashboard.png/)
