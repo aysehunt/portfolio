@@ -1,4 +1,5 @@
 ---
+visibility: hidden
 order: G
 ---
 # University of Puget Sound - Computer Science
