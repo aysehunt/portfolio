@@ -6,6 +6,10 @@ order: E
 ---
 # Designing an interactive museum kiosk
 
+## Summary
+
+In this project, I led a team of other 3 students in developing an Android application featuring museum artifacts. My contributions included implementing the front-end of the application based on data from my 2018 ethnographic study. Additionally, I collaborated with curators and exhibit designers to design a physical kiosk to house the application.
+
 ## Situation
 
 This project was a collaboration between the Museum of Glass in Tacoma, WA and students at the University of Puget Sound. The team consisted of my peers Nick Bigger, Marwan Johnson, Kayla Ramos and myself. This project was active from November 2018 to June 2019. This work was the basis for my Capstone project at the end of my Computer Science degree. 

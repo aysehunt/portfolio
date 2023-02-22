@@ -1,8 +1,7 @@
 ---
-visibility: hidden
 order: G
 ---
-# University of Puget Sound - Computer Science
+# University of Puget Sound
 ---
 # Understanding user journeys using IDE log data
 

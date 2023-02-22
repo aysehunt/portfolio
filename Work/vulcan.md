@@ -6,6 +6,10 @@ order: D
 ---
 # Improving the usability of an internal calendar tool
 
+## Summary
+
+In this project, I worked with my colleague to design a SmartSheet dashboard to improve internal communication between 6 departments. We designed a custom calendar using SmartSheet to meet the needs of our end users. Additionally, we facilitated the transition to the new calendar system utilizing principles of change management.
+
 ## Situation 
 
 This project was part of my role with the Vulcan, Inc. Arts & Entertainment group. The team consisted of my colleague Brianna Lovest and myself. This project was active between September and December 2019.

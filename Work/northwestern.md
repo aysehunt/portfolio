@@ -6,9 +6,13 @@ order: B
 ---
 # Exploring how interface design influences collaboration
 
+## Summary
+
+With my collaborators, I conducted a mixed-methods analysis of children's collaboration while playing a computational game.We systematically compared how two different interfaces influenced children’s behavior by examining video data of children playing with the game. In addition to contributing to qualitative analysis, I ran statistical analysis in Excel and Stata and synthesized quantitative findings for publication.
+
 ## Situation
 
-In this project, our team conducted a mixed-methods analysis of a set of video data. The team consisted of Dr. Mmachi Obiorah, Dr. Mike Horn, and myself. This project began in January 2021 and is ongoing. This work is a continuation of prior work by <a href="https://dl-acm-org.turing.library.northwestern.edu/doi/10.1145/2771839.2771866" target="_blank"> Hu et al.</a> 
+The project team consisted of Dr. Mmachi Obiorah, Dr. Mike Horn, and myself. This project began in January 2021 and is ongoing. This work is a continuation of prior work by <a href="https://dl-acm-org.turing.library.northwestern.edu/doi/10.1145/2771839.2771866" target="_blank"> Hu et al.</a> 
 
 ![A child plays Osmo Coding on an iPad. Credit: Osmo Coding.](/static/osmo-fig1.png/)
 

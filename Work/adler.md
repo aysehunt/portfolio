@@ -6,6 +6,11 @@ order: A
 ---
 # Co-designing a museum exhibit with youth
 
+## Summary
+
+In this project, I collaborated with the Adler Planetarium to identified usability and accessibility issues in an existing museum exhibit. The exhibit featured an interactive touchtable. With my advisor, I iterated on existing touchtable UI in order to align with reading comprehension of children aged 6-13. Finally, I held feedback sessions with 25 middle school youth to refine exhibit prototypes and design.
+
+
 ## Situation
 
 This project was a collaboration between the Adler Planetarium and Northwestern University. The team consisted of my advisors Dr. Mike Horn and Dr. Laura Trouille, and myself. This project was active from August 2021 to June 2022. It was a continuation of <a href="https://doi-org.turing.library.northwestern.edu/10.1145/3411764.3445334" target="_blank">previous work by Obiorah et al.</a> The previous team had designed and evaluated an exhibit at the Adler titled "U!Scientist". 

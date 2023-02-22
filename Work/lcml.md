@@ -6,6 +6,10 @@ order: C
 ---
 # Evaluating visitor experiences in a museum exhibit
 
+## Summary
+
+In this project, I designed a mixed-methods study to evaluate visitor experiences in an existing museum exhibit. Through a combination of data analysis methods, I pinpointed a number of challenges within the exhibit. I translated these findings and my suggested solutions into a renovation proposal. I achieved buy-in from key stakeholders to move forward with my proposed design recommendations.
+
 ## Situation
 
 This project was my final deliverable for my internship at Living Computers: Museum + Labs (LCM+L) in 2019. LCM+L is a computing history museum located in Seattle. LCM+L features a collection of restored vintage computers that are available for public use. 
