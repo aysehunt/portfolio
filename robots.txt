@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://aysehunt.com/sitemap.xml.gz
+Sitemap: https://aysehunt.github.io/portfolio/sitemap.xml.gz
