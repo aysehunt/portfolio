@@ -5,7 +5,7 @@ visibility: hidden
 # Ayse Hunt
 ---
 
-**Last updated:** August 2023.
+**Last updated:** October 2023.
 
 [!ref target="blank" text="My CV/resume"](/static/Hunt-CV-Oct-2023.pdf). 
 
